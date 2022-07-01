@@ -5,15 +5,16 @@
 
 ## Usage
 
-Add div with id "gallery" and class "gallery__wrapper"
+Add DIV with ID "gallery" and CLASS "gallery__wrapper"
 to your website 
 
 Add your images to the block: 
-"<div class="gallery__item"><img src="YOUR_IMAGE"></div>"
+put your image into the DIV with class "gallery__item"
  
 ## CSS
 
  change (.gallery__wrapper) background to display image by default
+ Example: background: url("images/3.jpg") no-repeat center center; 
 
 
 ## Features
@@ -26,9 +27,6 @@ Add your images to the block:
 
 
 ## Demo
-
-
-
 
 * Full view
 ![Logo](https://github.com/starsetphenomenon/custom-gallery/blob/main/images/demo1.png?raw=true)
