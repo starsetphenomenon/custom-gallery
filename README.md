@@ -5,9 +5,8 @@
 
 ## Usage
 
-Add 
-***<div id="gallery" class="gallery__wrapper">***
- to your website 
+Add div with id "gallery" and class "gallery__wrapper"
+to your website 
 
 Add your images to the block: 
 "<div class="gallery__item"><img src="YOUR_IMAGE"></div>"
