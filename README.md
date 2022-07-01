@@ -14,6 +14,7 @@ put your image into the DIV with class "gallery__item"
 ## CSS
 
  change (.gallery__wrapper) background to display image by default
+ 
  Example: background: url("images/3.jpg") no-repeat center center; 
 
 
