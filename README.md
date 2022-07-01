@@ -5,10 +5,14 @@
 
 ## Usage
 
-Add <div id="gallery" class="gallery__wrapper"> to your website 
+Add 
+* <div id="gallery" class="gallery__wrapper"> 
+ to your website 
 
-Into the block add your images:
- <div class="gallery__item"><img src="YOUR_IMAGE"></div>
+Add your images to the block:
+ 
+ * <div class="gallery__item"><img src="YOUR_IMAGE"></div>
+ 
 ## CSS
 
  change (.gallery__wrapper) background to display image by default
