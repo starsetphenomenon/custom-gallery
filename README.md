@@ -6,7 +6,7 @@
 ## Usage
 
 Add 
-"<div id="gallery" class="gallery__wrapper">" 
+***<div id="gallery" class="gallery__wrapper">***
  to your website 
 
 Add your images to the block: 
