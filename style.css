@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 60px 0;
-    background-color: rgb(197, 255, 253);
+    background-color: rgb(239, 126, 69);
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
     width: 100%;
     font-size: 42px;
     font-weight: 600;
-    color: brown;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     padding: 15px 0;
     border-radius: 16px;
@@ -23,18 +23,21 @@ body {
 }
 
 .gallery__wrapper {
+    position: relative;
     transition: all 1s ease-in-out;
-    background: url("images/3.jpg") no-repeat center center;/* Change background by default */
+    /* Change background by default */
+    background: url("images/3.jpg") no-repeat center center;
+    /* Change background by default */
     background-size: cover;
     border-radius: 16px;
     margin: 30px 0;
     padding: 80px 5%;
     width: 90%;
-    min-height: 320px;
+    max-height: 1080px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: rgba(248, 62, 0, 0.4) 0px 50px 100px -20px, rgba(168, 0, 0, 0.4) 0px 30px 60px -30px;
+    box-shadow: rgba(0, 217, 255, 0.4) 0px 50px 100px -20px, rgba(3, 236, 244, 0.4) 0px 30px 60px -30px;
 }
 
 .gallery__item {
@@ -50,6 +53,8 @@ body {
     opacity: 0.3;
     cursor: pointer;
 }
+
+
 
 .gallery__item:hover {
     filter: grayscale(0);
@@ -79,11 +84,14 @@ img {
 @media (max-width: 767px) {
     .gallery__wrapper {
         flex-wrap: wrap;
+        background-position: center !important;
+        background-size: cover !important;
+        max-height: auto !important;
     }
 
     .gallery__item {
         filter: grayscale(0);
-        height: 40px;
+        height: auto;
         opacity: 0.2;
         -webkit-touch-callout: none;
         -webkit-user-select: none;

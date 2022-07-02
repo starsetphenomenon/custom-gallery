@@ -14,3 +14,12 @@ galleryItem.forEach(link => {
         border-radius: 16px;`;
     });
 });
+
+//Remove images if amount is more than 24
+let items = Array.from(galleryItem);
+console.log(items);
+for (let i = 0; i < items.length; i++) {
+    if (i >= 24) {
+        items[i].remove();
+    }
+}

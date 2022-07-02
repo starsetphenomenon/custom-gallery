@@ -1,7 +1,10 @@
 
 # Custom Gallery Vanilla JS
 
+## Advice
 
+Maximum amout of images is around 24. 
+Use slider version for more images!
 
 ## Usage
 
@@ -25,6 +28,8 @@ put your image into the DIV with class "gallery__item"
 * Customizable
 
 * Easy to use
+
+* automatically remove images if amount is more than 24
 
 
 ## Demo
